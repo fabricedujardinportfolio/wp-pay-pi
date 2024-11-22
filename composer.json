@@ -1,0 +1,15 @@
+{
+    "name": "wp-pay-pi/wp-pay-pi",
+    "description": "WordPress plugin for accepting Pi Coin payments in WooCommerce",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPPayPi\\": "includes/"
+        }
+    }
+}
